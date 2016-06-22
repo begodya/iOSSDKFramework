@@ -12,6 +12,7 @@
 		3BA995BD1D115DA6005D5916 /* BBSDKFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995BC1D115DA6005D5916 /* BBSDKFrameworkTests.swift */; };
 		3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995C71D115DBA005D5916 /* BBHello.swift */; };
 		978ECDB01D1A573500119931 /* BBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDAF1D1A573500119931 /* BBConfig.swift */; };
+		978ECDB21D1A591D00119931 /* BBDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDB11D1A591D00119931 /* BBDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		3BA995BE1D115DA6005D5916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA995C71D115DBA005D5916 /* BBHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHello.swift; sourceTree = "<group>"; };
 		978ECDAF1D1A573500119931 /* BBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBConfig.swift; sourceTree = "<group>"; };
+		978ECDB11D1A591D00119931 /* BBDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		978ECDAE1D1A571700119931 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				978ECDB11D1A591D00119931 /* BBDataSource.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */,
+				978ECDB21D1A591D00119931 /* BBDataSource.swift in Sources */,
 				978ECDB01D1A573500119931 /* BBConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

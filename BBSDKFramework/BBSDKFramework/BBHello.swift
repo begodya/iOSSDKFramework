@@ -12,6 +12,9 @@ public class BBHello {
     
     public class func sayHello() {
         print("Hello BB")
+        BBDataSource.version();
+        BBDataSource.shareInstance
     }
+    
     
 }
