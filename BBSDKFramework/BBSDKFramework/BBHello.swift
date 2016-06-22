@@ -9,7 +9,9 @@
 import Foundation
 
 public class BBHello {
+    
     public class func sayHello() {
         print("Hello BB")
     }
+    
 }

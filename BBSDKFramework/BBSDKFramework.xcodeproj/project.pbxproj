@@ -11,6 +11,7 @@
 		3BA995B81D115DA6005D5916 /* BBSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA995AD1D115DA5005D5916 /* BBSDKFramework.framework */; };
 		3BA995BD1D115DA6005D5916 /* BBSDKFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995BC1D115DA6005D5916 /* BBSDKFrameworkTests.swift */; };
 		3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995C71D115DBA005D5916 /* BBHello.swift */; };
+		978ECDB01D1A573500119931 /* BBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDAF1D1A573500119931 /* BBConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		3BA995BC1D115DA6005D5916 /* BBSDKFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSDKFrameworkTests.swift; sourceTree = "<group>"; };
 		3BA995BE1D115DA6005D5916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA995C71D115DBA005D5916 /* BBHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHello.swift; sourceTree = "<group>"; };
+		978ECDAF1D1A573500119931 /* BBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,8 @@
 		3BA995AF1D115DA5005D5916 /* BBSDKFramework */ = {
 			isa = PBXGroup;
 			children = (
+				978ECDAD1D1A571700119931 /* Service */,
+				978ECDAE1D1A571700119931 /* Tools */,
 				3BA995B01D115DA5005D5916 /* BBSDKFramework.h */,
 				3BA995B21D115DA5005D5916 /* Info.plist */,
 				3BA995C71D115DBA005D5916 /* BBHello.swift */,
@@ -87,6 +91,21 @@
 				3BA995BE1D115DA6005D5916 /* Info.plist */,
 			);
 			path = BBSDKFrameworkTests;
+			sourceTree = "<group>";
+		};
+		978ECDAD1D1A571700119931 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				978ECDAF1D1A573500119931 /* BBConfig.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		978ECDAE1D1A571700119931 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */,
+				978ECDB01D1A573500119931 /* BBConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +342,7 @@
 				INFOPLIST_FILE = BBSDKFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "\"-D\" \"DEBUG\"";
 				PRODUCT_BUNDLE_IDENTIFIER = Begodya.BBSDKFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -385,6 +406,7 @@
 				3BA995C31D115DA6005D5916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BA995C41D115DA6005D5916 /* Build configuration list for PBXNativeTarget "BBSDKFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +415,7 @@
 				3BA995C61D115DA6005D5916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
