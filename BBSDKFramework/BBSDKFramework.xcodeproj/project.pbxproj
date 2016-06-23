@@ -11,8 +11,12 @@
 		3BA995B81D115DA6005D5916 /* BBSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA995AD1D115DA5005D5916 /* BBSDKFramework.framework */; };
 		3BA995BD1D115DA6005D5916 /* BBSDKFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995BC1D115DA6005D5916 /* BBSDKFrameworkTests.swift */; };
 		3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA995C71D115DBA005D5916 /* BBHello.swift */; };
+		9766E8C01D1B7B4000652A68 /* BBHttpExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766E8BF1D1B7B4000652A68 /* BBHttpExecutor.swift */; };
 		978ECDB01D1A573500119931 /* BBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDAF1D1A573500119931 /* BBConfig.swift */; };
 		978ECDB21D1A591D00119931 /* BBDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDB11D1A591D00119931 /* BBDataSource.swift */; };
+		978ECDB61D1A692000119931 /* BBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDB51D1A692000119931 /* BBService.swift */; };
+		978ECDBA1D1A7D0600119931 /* BBRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDB91D1A7D0600119931 /* BBRequestModel.swift */; };
+		978ECDBC1D1A981700119931 /* BBHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978ECDBB1D1A981700119931 /* BBHttpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +37,12 @@
 		3BA995BC1D115DA6005D5916 /* BBSDKFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSDKFrameworkTests.swift; sourceTree = "<group>"; };
 		3BA995BE1D115DA6005D5916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA995C71D115DBA005D5916 /* BBHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHello.swift; sourceTree = "<group>"; };
+		9766E8BF1D1B7B4000652A68 /* BBHttpExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHttpExecutor.swift; sourceTree = "<group>"; };
 		978ECDAF1D1A573500119931 /* BBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBConfig.swift; sourceTree = "<group>"; };
 		978ECDB11D1A591D00119931 /* BBDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBDataSource.swift; sourceTree = "<group>"; };
+		978ECDB51D1A692000119931 /* BBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBService.swift; sourceTree = "<group>"; };
+		978ECDB91D1A7D0600119931 /* BBRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBRequestModel.swift; sourceTree = "<group>"; };
+		978ECDBB1D1A981700119931 /* BBHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHttpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				978ECDB11D1A591D00119931 /* BBDataSource.swift */,
+				978ECDB51D1A692000119931 /* BBService.swift */,
+				978ECDBB1D1A981700119931 /* BBHttpClient.swift */,
+				9766E8BF1D1B7B4000652A68 /* BBHttpExecutor.swift */,
+				978ECDB91D1A7D0600119931 /* BBRequestModel.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -220,8 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA995C81D115DBA005D5916 /* BBHello.swift in Sources */,
+				978ECDBC1D1A981700119931 /* BBHttpClient.swift in Sources */,
+				978ECDBA1D1A7D0600119931 /* BBRequestModel.swift in Sources */,
 				978ECDB21D1A591D00119931 /* BBDataSource.swift in Sources */,
 				978ECDB01D1A573500119931 /* BBConfig.swift in Sources */,
+				978ECDB61D1A692000119931 /* BBService.swift in Sources */,
+				9766E8C01D1B7B4000652A68 /* BBHttpExecutor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

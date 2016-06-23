@@ -33,7 +33,7 @@ class BBDataSource: NSObject {
     // 初始化
     class func initDataSource() {
         self.shareInstance.version = "1.0"
-        self.shareInstance.platform = ""
+        self.shareInstance.platform = "iOS"
     }
     
     // MARK: - --------------------功能函数--------------------
