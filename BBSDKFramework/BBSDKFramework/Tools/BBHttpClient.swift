@@ -209,7 +209,7 @@ class BBHttpClient: NSObject {
     private func queueRequest(requestOperation: BBHttpExecutor) -> BBHttpExecutor {
         // 添加 HTTP Header Fileds
         for (key,value) in HTTPHeaderFields {
-        
+            requestOperation.setValue(value, HTTPHeaderField: key)
         }
         // 添加至线程队列
         self.operationQueue.addOperation(requestOperation)
